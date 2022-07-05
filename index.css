@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: inter;
+    color: white;
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: center;
+}
+
+#main-container{
+    height: 550px;
+    width: 550px;
+    background-color: #2c2a4a;
+    background-image: url("tentacles.png");
+    background-size: 550px 275px;
+    background-repeat: no-repeat;
+    background-position-y: 280px;
+}
+
+#main-container-2{
+    padding: 100px 52px;
+}
+
+#heading{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-begin;
+    justify-content: center;
+}
+
+.title-h{
+    margin: 0;
+    font-size: 40px;
+    font-family: karla;
+    font-weight: 800;
+}
+
+#title-h-accent{
+    color: #dabfff;
+}
+
+.title-p{
+    margin: 10px 0 16px 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.button-picker-section{
+    margin: 26px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picker-section{
+    height: 60px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+#tentacles{
+    width: 50px;
+    background-color: #4f518c;
+    border: none;
+    border-radius: 5px;
+    color: #7fdeff;
+    padding: 5px 10px;
+    font-family: inter; 
+}
+
+#gen-btn{
+    width: 191px;
+    height: 42px;
+    border: none;
+    background-color: #907ad6;
+    color: white;
+    font-weight: 500;
+    border-radius: 6px;
+    font-family: inter;
+}
+
+#gen-btn:hover{
+    background-color: #4F518C;
+    cursor: pointer;
+    color: #7fdeff;
+}
+
+#pswd-line{
+    border: 1px solid #4f518c;
+}
+
+#password-section{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password{
+    background-color: #4f518c;
+    border-radius: 6px;
+    width: 211px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7fdeff;
+    font-weight: 500;
+}
+
+.password:hover{
+    background-color: #907AD6;
+    cursor: pointer;
+    color: white;
+}
